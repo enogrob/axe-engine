@@ -1,0 +1,28 @@
+@label mainfornow
+@@-----------------------@@
+@@  CP SOFTWARE RECORD   @@
+@@-----------------------@@
+@LOG ON {FileName}.lasip{_log}
+LASIP:BLOCK=ALL;
+@LOG OFF
+
+@LOG ON {FileName}.laeip{_log}
+LAEIP:SUNAME=ALL;
+@LOG OFF
+
+@LOG ON {FileName}.pcecp{_log}
+PCECP:SUNAME=ALL;
+@LOG OFF
+
+@LOG ON {FileName}.pcorp{_log}
+PCORP:BLOCK=ALL;
+@LOG OFF
+
+@LOG ON {FileName}.lafbp{_log}
+LAFBP:BCM=ALL;
+@LOG OFF
+
+@@----------------------------------------------@@
+@@  Run SRHtool through Ruby script             @@
+@@----------------------------------------------@@
+@EXECUTE "C:\Program Files\ruby-1.8\bin\irb.bat"

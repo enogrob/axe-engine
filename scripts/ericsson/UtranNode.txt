@@ -1,0 +1,11 @@
+#$Id:$
+# Example for node data (simplified)
+#----------------------------------------------------------------------------------
+# RNS(code)	NODE_CODE	NODE_NAME	PASSWORD	TYPE	IPv4Address
+1		TRNC1		TRNC1		Trnc1pwd	RNC	10.1.1.10
+2		TRNC2		TRNC2		Trnc2pwd	RNC	10.1.2.10
+3		TRNC3		TRNC3		Trnc3pwd	RNC	10.1.3.10
+4		TRNC4		TRNC4		Trnc4pwd	RNC	10.1.4.10
+5		TRNC5		TRNC5		Trnc5pwd	RNC	10.1.5.10
+6		TRNC6		TRNC6		Trnc6pwd	RNC	10.1.6.10
+7		TRNC7		TRNC7		Trnc7pwd	RNC	10.1.7.10
